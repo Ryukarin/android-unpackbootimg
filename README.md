@@ -49,15 +49,20 @@ most of the unpackbootimg logic that is no longer present in AOSP.
 首先，感谢anestisb
 
 下载此项目，进行编译
+
 ```
 git clone https://github.com/Ryukarin/android-unpackbootimg.git bootimg
 cd bootimg
 make
 ```
 编译之后，会多出两个可执行文件 mkbootimg 和 unpackbootimg
+
 一个是打包命令，一个是解包命令
+
 具体用法看上面的命令解释
+
 当然，你也可以把这两个可执行文件复制到/bin下，之后可以直接运行
+
 ```
 sudo cp bootimg/mkbootimg /bin/
 sudo cp bootimg/unpackbootimg /bin/
